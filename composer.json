@@ -1,6 +1,6 @@
 {
     "name": "bonvga/geoip2",
-    "description": "GeoIP 2 toolkit for Symfony 2",
+    "description": "Maxmind GeoIP 2 toolkit for Symfony 2",
     "keywords": [ "geoip", "geolocation", "maxmind" ],
     "type": "library",
     "license": "LGPL 3.0",
@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "symfony/process": "2.6.11"
+        "symfony/process": "*"
     },
     "suggest": {
         "geoip2/geoip2": "to make use of the geolite2 databases in your php project"
