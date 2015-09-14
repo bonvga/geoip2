@@ -11,7 +11,10 @@
             "homepage": "http://www.bonvga.net/"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/process": "2.6.11",
+        "gunzip": "*"
+    },
     "suggest": {
         "geoip2/geoip2": "to make use of the geolite2 databases in your php project"
     }
