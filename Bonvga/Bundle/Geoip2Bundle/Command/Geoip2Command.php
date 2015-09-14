@@ -1,24 +1,25 @@
 <?php
 namespace Bonvga\Bundle\Geoip2Bundle\Command;
 
+use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class Geoip2Updater
+class Geoip2Command extends ContainerAwareCommand
 {
     protected function configure()
     {
         $this
-            ->setName('bonvga:geoip2:update_db')
+            ->setName('bonvga:geoip2_database_update')
             ->setDescription('Updating Geoip 2 Maxmind Database')
         ;
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-
+        die(__FILE__);
 
 
         /*$this->printTitle($output);
