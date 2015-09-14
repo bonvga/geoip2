@@ -12,8 +12,7 @@
         }
     ],
     "require": {
-        "symfony/process": "2.6.11",
-        "gunzip": "*"
+        "symfony/process": "2.6.11"
     },
     "suggest": {
         "geoip2/geoip2": "to make use of the geolite2 databases in your php project"
