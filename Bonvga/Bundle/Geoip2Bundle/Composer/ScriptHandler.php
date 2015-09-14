@@ -10,12 +10,7 @@ class ScriptHandler
     static public function installDatabase(CommandEvent $event)
     {
 
-        //var_dump($event);
-        $options = self::getOptions($event);
-        $appDir = $options['symfony-app-dir'];
-
         var_dump(__FILE__);
-        var_dump($appDir);
 
         //var_dump($options);
         echo 'TEST.'.PHP_EOL;
