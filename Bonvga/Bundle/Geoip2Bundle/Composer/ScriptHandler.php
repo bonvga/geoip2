@@ -10,7 +10,10 @@ class ScriptHandler
     static public function installDatabase(CommandEvent $event)
     {
 
-        var_dump($event);
+        //var_dump($event);
+        $options = self::getOptions($event);
+
+        var_dump($options);
 
         die('TOTO');
 
