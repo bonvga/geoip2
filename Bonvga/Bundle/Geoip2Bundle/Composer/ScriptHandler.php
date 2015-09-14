@@ -13,6 +13,8 @@ class ScriptHandler
         //var_dump($event);
         $options = self::getOptions($event);
         $appDir = $options['symfony-app-dir'];
+
+        var_dump(__FILE__);
         var_dump($appDir);
 
         //var_dump($options);
