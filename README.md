@@ -33,7 +33,7 @@ Installation
             );
         }
 
-4. Optional, updating Maxmind Geocity2 database during composer
+ 4. Optional, updating Maxmind Geocity2 database during composer
 
         // composer.json
 
