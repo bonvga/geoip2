@@ -1,5 +1,5 @@
 <?php
-namespace Bonvga\Bundle\GeoipBundle\Composer;
+namespace Bonvga\Bundle\Geoip2Bundle\Composer;
 
 use Composer\Script\CommandEvent;
 use Symfony\Component\Process\Process;
