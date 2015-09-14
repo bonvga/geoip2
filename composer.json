@@ -11,6 +11,10 @@
             "homepage": "http://www.bonvga.net/"
         }
     ],
+    "autoload": {
+        "psr-0": { "Bonvga\\Bundle\\Geoip2Bundle": "" }
+    },
+    "target-dir": "Bonvga/Bundle/Geoip2Bundle",
     "require": {
         "symfony/process": "*"
     },
