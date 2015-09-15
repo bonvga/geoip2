@@ -46,7 +46,18 @@ Installation
             ]
         },
 
+        // or with command
+
+        $ php app/console bonvga:geoip2_database_update
+
 Usage
 -----
 
-TODO
+With geoip2/geoip2 bundle :
+
+        // sample
+
+        use Bonvga\Bundle\Geoip2Bundle\Lib\Geoip2Manager;
+        use GeoIp2\Database\Reader;
+
+        $reader = new Reader(Geoip2Manager::getGeoip2LiteCityDatabasePath());
