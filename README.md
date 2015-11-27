@@ -13,7 +13,7 @@ Installation
            // ...
            "require": {
                // ...
-               "bonvga/geoip2": "dev-master"
+               "bonvga/geoip2": "1.0"
            }
         }
 
