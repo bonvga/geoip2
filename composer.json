@@ -15,6 +15,7 @@
         "psr-0": { "Bonvga\\Bundle\\Geoip2Bundle": "" }
     },
     "require": {
+        "lib-curl": "*",
         "symfony/process": "*"
     },
     "suggest": {
