@@ -19,7 +19,7 @@ class Geoip2Manager
     {
         $path = self::getGeoip2DatabasePath();
 
-        $process = new Process('wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz -O '.$path.'/GeoLite2-City.mmdb.gz; gunzip -f '.$path.'/GeoLite2-City.mmdb.gz');
+        $process = new Process('curl -o '.$path.'/GeoLite2-City.mmdb.gz http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz; gunzip -f '.$path.'/GeoLite2-City.mmdb.gz');
         $process->setTimeout(3600);
         $process->run(function ($type, $buffer) {
             echo $buffer;
