@@ -58,9 +58,14 @@ Installation
 Usage
 -----
 
-With geoip2/geoip2 bundle :
+With the geoip2/geoip2 bundle :
 
-        // sample
+        // composer requirement
+        "geoip2/geoip2": "~2.0"
+
+Or see https://packagist.org/packages/geoip2/geoip2
+
+        // PHP sample
 
         use Bonvga\Bundle\Geoip2Bundle\Lib\Geoip2Manager;
         use GeoIp2\Database\Reader;
