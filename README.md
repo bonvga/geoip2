@@ -18,7 +18,7 @@ Installation
            // ...
            "require": {
                // ...
-               "bonvga/geoip2": "1.0"
+               "bonvga/geoip2": "1.*"
            }
         }
 
