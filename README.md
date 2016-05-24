@@ -2,6 +2,11 @@
 
 This Symfony 2 bundle is a helper for Maxmind Geocity2 database installation.
 
+Requirements
+------------
+
+You need the Curl binary package. (https://curl.haxx.se/)
+
 Installation
 ------------
 
